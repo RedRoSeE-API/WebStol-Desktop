@@ -1,0 +1,133 @@
+.main-div-menuThisWeek {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 36px;
+  padding: 0px 8px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  transition:all 600ms ease;
+}
+.main-div-menuThisWeek:hover {
+  box-shadow: 7px 8px 15px #010535c9;
+  transform: scale(1.02);
+}
+.go__back-div {
+  margin: 16px;
+  display: flex;
+  width: 92.4%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 24px;
+}
+.go__back-div h3 {
+  margin-bottom: 16px;
+}
+.main-div-menuThisWeek-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* height:250px; */
+  overflow: hidden;
+  padding: 12px;
+  margin-right:12px;
+  /* background: linear-gradient(360deg, var(--secondaryBackground-firstColor) 2.34%, var(--secondaryBackground-secondColor) 100.78%); */
+  /* max-width:420px;
+  min-width: 320px; */
+  width:100%;
+  height:100%;
+ 
+  margin-top:0;
+  /* padding-top:16px; */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.fix:hover {
+  transform: scale(1.04);
+}
+.main-div-menuThisWeek h3 {
+  width:100%;
+ /* height:100%; */
+  text-align: left;
+  /* padding-bottom: 8px; */
+  font-size: var(--fs-400);
+  overflow: hidden;
+  font-weight: 600;
+  margin-left:16px;
+  /* makes the text finally fit in the box */
+width: clamp(200px, 60vw, 280px);
+}
+.cena {
+  text-align:center!important;
+}
+.main-div-menuThisWeek p {
+  font-size: var(--fs-600);
+  font-weight: 600;
+  padding: 6px;
+}
+.main-div-menuThisWeek .label-content-two {
+  /* position:absolute;
+  top:0;
+  right:auto;
+  left:auto;
+  margin-top:-30px;
+  z-index:100; */
+ 
+  background: linear-gradient(180deg, var( --titleTabColor-first) 15.34%,  var( --titleTabColor-second) 100.78%);
+  width: 100%;
+  height:30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.week__title {
+  font-size: var(--fs-700);
+  text-align: center;
+  padding-top: 12px;
+}
+.column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fix{
+ height:320px;
+ background: linear-gradient(360deg, var(--secondaryBackground-firstColor) 2.34%, var(--secondaryBackground-secondColor) 100.78%);
+ width:330px;
+ margin:24px;
+ border-radius:12px;
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content: center;
+ transition: all 600ms ease;
+}
+@media only screen and (max-width: 845px) {
+.fix {
+  height:310px;
+  width:320px;
+}
+}
+/* @media only screen and (max-width: 1035px) {
+  .main-div-menuThisWeek-div {
+    width: 33%;
+    height: 280px;
+    margin: 12px;
+  }
+  .main-div-menuThisWeek .label-content-two {
+    margin: 12px;
+
+    margin-top: -10px;
+  }
+  .main-div-menuThisWeek h3 {
+    padding-bottom: 48px;
+    width: 100%;
+    font-size: var(--fs-300);
+    overflow: hidden;
+  }
+} */
