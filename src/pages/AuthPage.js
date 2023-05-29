@@ -53,7 +53,7 @@ function App() {
             </div>
 
             <button className="submit-btn" type="submit" onClick={handleSubmit}>
-              Вляз
+              Влез
             </button>
           </div>
         </main>
